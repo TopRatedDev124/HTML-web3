@@ -1,0 +1,830 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1040px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .container.custom-container {
+        max-width: 1300px;
+    }
+}
+
+@media (min-width: 1440px) {
+   
+}
+
+/* max width  */
+@media (max-width: 1680px) {
+    .dashboard-card-area .dashboard-card-item {
+        min-height: 185px;
+    }
+    .dashboard-card-area .token-card-item {
+        min-height: 315px;
+    }
+    .coming-soon-area .coming-soon-wrap h2 {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .sidebar .logo-wrap {
+        margin: 30px 0 30px;
+    }
+    .sidebar .sidebar-brands {
+        margin-top: 50px;
+    }
+    .sidebar .navigation li a {
+        font-size: 18px;
+        min-height: 60px;
+        padding-left: 30px;
+    }
+    .sidebar .navigation li a .menu-shape {
+        height: 104px;
+    }
+    .sidebar {
+        width: 250px;
+    }
+    .sidebar .logo-wrap img {
+        width: 150px;
+    }
+    .main-content {
+        width: calc(100% - 250px);
+        padding: 30px 40px;
+    }
+    .header-bar .header-bar-btn .primary-btn {
+        font-size: 20px;
+        padding: 15px 35px;
+    }
+    .dashboard-card-area .dashboard-card-item {
+        min-height: 185px;
+    }
+}
+@media (max-width: 1368px) {
+    .dashboard-card-area .token-card-item {
+        min-height: auto;
+        margin-bottom: 30px;
+    }
+    .dashboard-card-area .dashboard-card-item {
+        min-height: auto;
+    }
+}
+@media (max-width: 1366px) {
+    .banner-area .banner-content .banner-title img {
+        max-width: 60%;
+    }
+    .banner-area .banner-content h2 {
+        font-size: 42px;
+    }
+    .banner-area {
+        padding: 180px 0 200px;
+    }
+    .section-title h2 {
+        font-size: 42px;
+    }
+    .protocol-area .fixed-number-wrap h2 {
+        font-size: 60px;
+        color: #60F5FB;
+        margin: 10px 0;
+    }
+    .roadmap-area .timeline-wraper .single-timeline-item .date-wrap {
+        left: 0;
+        top: -160px;
+    }
+    .roadmap-area .timeline-wraper .single-timeline-item.right-item .date-wrap {
+        left: auto;
+        right: 0;
+    }
+    .footer-area .footer-top .footer-explore h2 {
+        font-size: 36px;
+    }
+    .banner-area .banner-thumb {
+        margin-right: 0;
+    }
+    .header-area .navbar .navbar-nav .nav-item a {
+        font-size: 16px;
+    }
+    .header-area .navbar .navbar-nav .nav-item {
+        margin-right: 30px;
+    }
+    .section-title h3 {
+        font-size: 32px;
+    }
+    .banner-area.event-banner .banner-content h1 {
+        font-size: 42px;
+    }
+    .banner-area.event-banner .banner-content .start-text {
+        font-size: 24px;
+        margin-bottom: 50px;
+    }
+    .banner-area.event-banner .banner-content .countdown-container .countdown-el-wrap .countdown-el .big-text {
+        font-size: 38px;
+    }
+    .banner-area.event-banner .banner-content .countdown-container .countdown-el-wrap .countdown-el span {
+        font-size: 20px;
+    }
+    .program-boxes-area .list-box {
+        margin-bottom: 25px;
+    }
+    .program-mid-wraper {
+        margin-bottom: 25px;
+    }
+    .banner-area.event-banner {
+        padding: 150px 0 60px;
+    }
+    .program-boxes-area .program-mid-wraper .program-amount-box-wrap {
+        padding: 20px 20px;
+    }
+    .program-boxes-area .list-box h4 {
+        margin-bottom: 25px;
+    }
+    .works-area2 .works-lists {
+        padding: 30px 30px;
+    }
+    .works-area2 .works-lists ul li {
+        font-size: 18px;
+    }
+    .dashboard-card-area .dashboard-card-item h4 {
+        font-size: 18px;
+    }
+    .dashboard-card-area .dashboard-card-item h2 {
+        font-size: 32px;
+    }
+    .dashboard-card-area .token-card-item p {
+        font-size: 18px;
+    }
+    .dashboard-card-area .token-card-item h2 {
+        font-size: 32px;
+    }
+    .coming-soon-area .coming-soon-wrap h2 {
+        font-size: 42px;
+        padding: 40px 20px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .global-fairlaunch-area .global-fairlaunch-mid-content .countdown-container .countdown-el-wrap .countdown-el {
+        padding: 26px 20px;
+    }
+    .roadmap-area .timeline-wraper .single-timeline-item {
+        margin-left: 0;
+    }
+    .roadmap-area .timeline-wraper .single-timeline-item.right-item {
+        margin-right: 0;
+        margin-left: 65px;
+    }
+    .footer-area .footer-top .footer-explore .footer-explore-boxes .single-f-explore-item h6 {
+        font-size: 16px;
+    }
+    .footer-area .footer-top .footer-social-boxes li a {
+        height: 70px;
+        border-radius: 5px;
+    }
+    .footer-area .footer-top .footer-explore .footer-explore-boxes .single-f-explore-item {
+        min-height: 50px;
+    }
+    .footer-area .footer-top .footer-explore .footer-explore-boxes {
+        margin-bottom: 30px;
+    }
+    .footer-area .footer-top .footer-explore h2 {
+        font-size: 32px;
+    }
+    .footer-area .footer-top .footer-logo-wrap {
+        padding: 25px 0;
+    }
+    .faq-area .accordion-item .accordion-header .accordion-button {
+        padding: 25px 20px;
+        font-size: 16px;
+        padding-left: 15%;
+    }
+    .faq-area .accordion-item .accordion-header .accordion-button .ac-icon {
+        left: 20px;
+    }
+    body {
+        font-size: 16px;
+    }
+    .global-fairlaunch-area .global-fairlaunch-mid-content .countdown-container .countdown-el-wrap .countdown-el span {
+        font-size: 18px;
+    }
+    .global-fairlaunch-area .global-fairlaunch-mid-content .countdown-container .countdown-el-wrap .countdown-el .big-text {
+        font-size: 36px;
+    }
+    .global-fairlaunch-area .global-fairlaunch-mid-content .countdown-container {
+        margin-bottom: 50px;
+    }
+    .global-fairlaunch-area .global-fairlaunch-mid-content .global-fairlaunch-checklist li {
+        font-size: 18px;
+    }
+    .banner-area .banner-content .banner-list-items {
+        display: block;
+    }
+    .banner-area .banner-content .banner-list-items li:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .footer-area .footer-top .footer-social-boxes {
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .header-area {
+        background: #00072D;
+        padding: 15px 0;
+        position: fixed;
+        top: 0;
+    }
+    .sticky-wrapper.is-sticky .header-area {
+        padding: 10px 0;
+    }
+    .header-area.active {
+        background: #00072D;
+    }
+    .navbar-toggler {
+        border: none;
+        border-radius: 0px;
+        padding: 0px;
+        cursor: pointer;
+    }
+    .navbar-toggler:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    .header-area .navbar-toggler {
+        background: #FAEE3A;
+        height: 45px;
+        width: 50px;
+        border-radius: 8px;
+    }
+    .navbar-toggler span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background: #00072D;
+        margin: auto;
+        margin-bottom: 4px;
+        transition: all 400ms linear;
+        cursor: pointer;
+    }
+    .navbar-toggler span:last-child {
+        margin-bottom: 0;
+    }
+    .navbar-toggler[aria-expanded=false] span:nth-child(2) {
+        opacity: 1;
+    }
+    .navbar-toggler[aria-expanded=true] span:nth-child(2) {
+        opacity: 0;
+    }
+    .navbar-toggler[aria-expanded=true] span:first-child {
+        transform: rotate(-45deg);
+        position: relative;
+        top: 7.5px;
+    }
+    .navbar-toggler[aria-expanded=true] span:last-child {
+        transform: rotate(45deg);
+        bottom: 6px;
+        position: relative;
+    }
+    .navbar-nav .nav-item {
+        margin-right: 0;
+    }
+    .navbar-nav .nav-item a {
+        font-size: 16px;
+        line-height: 50px;
+        color: #ffffffc2;
+        display: block;
+        padding: 0;
+    }
+    .navbar-nav .nav-item:not(:last-child) {
+        margin-right: 0;
+        border-bottom: 1px solid #dddddd3b;
+    }
+    .header-area .navbar .header-btns li:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+    .navbar-nav .nav-item {
+        position: relative;
+        line-height: inherit;
+    }
+    .navbar-nav .nav-item:not(:last-child):after {
+        display: none;
+    }
+    .header-area .navbar-nav {
+        display: none;
+    }
+    .header-area .header-btns {
+        display: none!important;
+    }
+    .banner-area .banner-content .boxed-text {
+        font-size: 18px;
+    }
+    .banner-area .banner-content .banner-button-wrap {
+        margin-right: -50px;
+    }
+    .banner-area {
+        padding: 150px 0 170px;
+    }
+    .protocol-area {
+        padding: 80px 0;
+    }
+    .works-area {
+        padding: 80px 0;
+        margin-top: 80px;
+    }
+    .special-gift-area {
+        padding: 200px 0 250px;
+    }
+    .fantom-chain-area .single-card-item .single-card-item-inner {
+        padding: 25px 25px 30px;
+    }
+    .fantom-chain-area {
+        padding-bottom: 80px;
+    }
+    .earn-area .earn-inner .earn-content p {
+        font-size: 20px;
+    }
+    .earn-area .earn-inner .earn-box {
+        padding: 25px 30px;
+    }
+    .earn-area .earn-inner .earn-box p {
+        margin-bottom: 0;
+        color: #ffffff;
+    }
+    .shadow-shape, .shadow-shape1, .shadow-shape2, .shadow-shape3, .shadow-shape4 {
+        display: none;
+    }
+    .grass-shape1, .grass-shape2 {
+        display: none;
+    }
+    .special-gift-area {
+        padding: 80px 0;
+        margin-top: 80px;
+    }
+    .fantom-chain-area {
+        padding: 80px 0;
+        margin-top: 0;
+    }
+    .earn-more-area {
+        padding: 80px 0;
+        margin-top: 80px;
+    }
+    .earn-more-area .single-earn-card .primary-btn {
+        font-size: 16px;
+        padding: 10px 35px;
+    }
+    .tokenomics-area .single-card-item .single-card-item-inner {
+        padding: 25px 25px 50px;
+    }
+    .tokenomics-area .single-card-item .single-card-item-inner p {
+        font-size: 16px;
+    }
+    .fantom-chain-area .single-card-item .single-card-item-inner p {
+        font-size: 16px;
+    }
+    .roadmap-area {
+        padding: 0 0 80px;
+    }
+    .faq-area {
+        padding: 80px 0;
+        margin-top: 80px;
+    }
+    .offcanvas-wraper .primary-btn {
+        width: 100%;
+        text-align: center;
+    }
+    .offcanvas-wraper .primary-btn.bordered-btn {
+        margin-bottom: 15px;
+    }
+    .primary-btn {
+        font-size: 16px;
+        padding: 12px 26px;
+    }
+    .offcanvas-wraper .header-btns {
+        margin-top: 15px;
+    }
+    .primary-btn.skew-left:before {
+        height: calc(100% + 5px);
+    }
+    .primary-btn.skew-right:before {
+        height: calc(100% + 5px);
+    }
+    .banner-area .banner-content .scale-effect2 .boxed-text {
+        font-size: 24px;
+    }
+    .earn-area .earn-inner .earn-box svg {
+        left: 37px;
+        top: 60px;
+    }
+    .tokenomics-area {
+        padding-bottom: 80px;
+    }
+    .coming-soon-area .coming-soon-wrap h2 {
+        font-size: 36px;
+        padding: 30px 20px;
+        width: 100%;
+    }
+    .coming-soon-cta .coming-soon-cta-inner p {
+        font-size: 28px;
+    }
+    .wallet-area .wallet-inner {
+        padding: 30px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .banner-area .banner-thumb {
+        margin-bottom: 30px;
+        max-width: 300px;
+    }
+    .banner-area .banner-content .banner-button-wrap {
+        margin-right: 0;
+    }
+    .banner-area {
+        padding: 120px 0 80px;
+        
+    }
+    .banner-area .banner-content .banner-title img {
+        max-width: 50%;
+    }
+    .banner-area .banner-content h2 {
+        font-size: 32px;
+    }
+    .partners-area {
+        padding-top: 0;
+    }
+    .partners-area .partners-brands {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .partners-area .contact-bar {
+        display: block;
+    }
+    .partners-area .contact-bar .btn-wrap {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .protocol-area .protocol-text {
+        padding: 30px 40px;
+    }
+    .video-area .video-text-box {
+        padding: 30px 40px;
+    }
+    .global-fairlaunch-area .helena img {
+        width: auto;
+    }
+    .global-fairlaunch-area .global-fairlaunch-mid-content {
+        margin: 30px 0;
+    }
+    .special-gift-area .special-gift-left-content .special-gift-btns .primary-btn.skew-right:before {
+        height: calc(100% + 6px);
+    }
+    .special-gift-area .special-gift-left-content .special-gift-btns .primary-btn.skew-left:before {
+        height: calc(100% + 6px);
+    }
+    .special-gift-area .special-gift-thumb {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .earn-area .earn-inner .earn-content {
+        margin-right: 0;
+    }
+    .earn-area .earn-inner .earn-arrow {
+        margin-left: 0;
+        margin: 30px 0;
+    }
+    .earn-area .earn-inner .earn-arrow img {
+        transform: rotate(90deg);
+    }
+    .earn-area .earn-btn-wrap {
+        margin-top: 50px;
+    }
+    .global-fairlaunch-area .section-title {
+        margin-bottom: 50px;
+    }
+    .section-title h3 {
+        font-size: 28px;
+    }
+    .fantom-chain-area .section-title {
+        margin-bottom: 50px;
+    }
+    .tokenomics-area .section-title {
+        margin-bottom: 50px;
+    }
+    .tokenomics-area .section-title p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .roadmap-area .timeline-wraper .single-timeline-item .timeline-inner li {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .roadmap-area .timeline-wraper .single-timeline-item .timeline-inner li img {
+        top: 0;
+    }
+    .roadmap-area .timeline-wraper .single-timeline-item {
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 220px;
+        position: relative;
+    }
+    .roadmap-area .timeline-wraper .single-timeline-item.right-item {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .roadmap-area .timeline-wraper {
+        position: relative;
+        padding: 0;
+    }
+    .faq-area .accordion-item .accordion-header .accordion-button {
+        padding-left: 20%;
+    }
+    .footer-area .footer-top .footer-helena img {
+        width: auto;
+    }
+    .footer-explore {
+        padding: 40px 0;
+    }
+    .footer-area .footer-top .footer-logo-wrap:before {
+        width: 35%;
+    }
+    .footer-area .footer-top .footer-logo-wrap:after {
+        width: 35%;
+    }
+    .footer-helena {
+        text-align: center;
+    }
+    .helena {
+        text-align: center;
+    }
+    .banner-area {
+        background-position: 50% -40px;
+    }
+    .roadmap-area .timeline-wraper .car {
+        display: none;
+    }
+    .earn-area .earn-inner .earn-box svg {
+        left: 47%;
+        top: 19px;
+    }
+    .works-area2 .works-lists ul li i {
+        height: 22px;
+        width: 22px;
+        top: 3px;
+        font-size: 14px;
+    }
+    .works-area2 .token-address h3 {
+        font-size: 24px;
+    }
+    .works-area2 .token-address p {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .sidebar {
+        left: -250px;
+    }
+    .main-content {
+        width: 100%;
+        padding: 30px 15px;
+    }
+    .header-bar .header-bar-btn .primary-btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .header-bar .db-menu-wrap {
+        display: block;
+    }
+    .sidebar .close {
+        display: block;
+    }
+    .wallet-area .wallet-inner .import-form-group .form-group input {
+        font-size: 16px;
+        line-height: 60px;
+        padding: 0 25px;
+    }
+    .wallet-area .wallet-inner .import-form-group .form-group input::placeholder {
+        font-size: 16px;
+    }
+    .wallet-area .wallet-inner .wallet-info .single-wallet-info-item span {
+        font-size: 16px;
+    }
+    .dashboard-card-area.card-area4 .dashboard-card-item {
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+    .wallet-area.calculator .wallet-inner {
+        padding: 30px;
+    }
+    .wallet-area.calculator .wallet-inner .wallet-info .single-wallet-info-item span {
+        font-size: 16px;
+    }
+    .wallet-area.calculator .wallet-inner .calculator-form-group .form-group label {
+        font-size: 16px;
+    }
+    .wallet-area.calculator .wallet-inner .calculator-form-group .form-group input {
+        font-size: 16px;
+        padding: 0 25px;
+        line-height: 60px;
+    }
+    .wallet-area.calculator .wallet-inner .calculator-form-group .form-group input::placeholder {
+        font-size: 16px;
+    }
+    .wallet-area.calculator .wallet-inner .range-slider label {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    br {
+        display: none;
+    }
+    .banner-area .banner-content h2 {
+        letter-spacing: 20px;
+    }
+    .earn-area .earn-inner .earn-box svg {
+        left: 55%;
+        top: 19px;
+    }
+    .banner-area.event-banner .banner-content .countdown-container .countdown-el-wrap .countdown-el .big-text {
+        height: 80px;
+        width: 90px;
+        font-size: 26px;
+    }
+    .banner-area.event-banner .banner-content .countdown-container .countdown-el-wrap .countdown-el span {
+        font-size: 18px;
+    }
+    .program-boxes-area .program-mid-wraper .program-price-boxes {
+        display: block;
+    }
+    .program-boxes-area .program-mid-wraper .program-price-boxes .single-program-price-box:not(:last-child) {
+        margin-bottom: 20px;
+        border-bottom: 1px solid #9E9B9B;
+        padding-bottom: 20px;
+    }
+    .coming-soon-area .coming-soon-wrap h2 {
+        font-size: 28px;
+    }
+    .coming-soon-cta .coming-soon-cta-inner .cta-btn-wrap .primary-btn {
+        padding: 20px 20px;
+    }
+    .wallet-area .wallet-inner .import-form-group .form-group {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .primary-btn.skew-right:before {
+        display: none;
+    }
+    .primary-btn.skew-left:before {
+        display: none;
+    }
+    .primary-btn.skew-left.bordered-btn {
+        border-left: 2px solid #FAEE3A;
+    }
+    .primary-btn.skew-right {
+        margin-right: 0;
+    }
+    .primary-btn.skew-left {
+        margin-left: 10px;
+    }
+    .partners-area .partners-brands {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .primary-btn.bordered-btn {
+        border: 2px solid #FAEE3A;
+    }
+    .section-title h2 {
+        font-size: 36px;
+    }
+    .protocol-area .fixed-number-wrap h2 {
+        font-size: 42px;
+    }
+    .video-area .video-box .video-box-inner {
+        height: 290px;
+    }
+    .footer-area .footer-top .footer-logo-wrap:before {
+        display: none;
+    }
+    .footer-area .footer-top .footer-logo-wrap:after {
+        display: none;
+    }
+    .earn-area .earn-inner .earn-box svg {
+        left: 49%;
+        top: 19px;
+    }
+    .program-boxes-area .program-mid-wraper .program-amount-box-wrap .pg-brands {
+        display: block;
+    }
+    .program-boxes-area .program-mid-wraper .program-amount-box-wrap .pg-brands .single-brand {
+        margin-bottom: 20px;
+    }
+    .coming-soon-area .coming-soon-wrap {
+        padding: 20px;
+    }
+    .coming-soon-area .coming-soon-wrap h2 {
+        font-size: 24px;
+    }
+    .coming-soon-cta .coming-soon-cta-inner p {
+        font-size: 18px;
+    }
+    .coming-soon-cta .coming-soon-cta-inner .cta-btn-wrap .primary-btn.bordered-btn {
+        border-color: #ffffff;
+        border-left: 2px solid #fff;
+    }
+    .wallet-area.calculator .wallet-inner .calculator-form-group {
+        display: block;
+    }
+    .wallet-area.calculator .wallet-inner .calculator-form-group .form-group:not(:last-child) {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-area .footer-top .footer-explore .footer-explore-boxes {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-area .footer-top .footer-social-boxes {
+        gap: 10px;
+    }
+    .global-fairlaunch-area .global-fairlaunch-mid-content .countdown-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .banner-area .banner-content .banner-button-wrap {
+        display: block;
+    }
+    .primary-btn {
+        width: 100%;
+        text-align: center;
+    }
+    .partners-area .contact-bar .btn-wrap .primary-btn {
+        width: 70%;
+    }
+    .global-fairlaunch-area .global-fairlaunch-btn-wrap .primary-btn {
+        width: 70%;
+    }
+    .primary-btn.skew-left {
+        margin-left: 0;
+    }
+    .banner-button-wrap .primary-btn.bordered-btn {
+        margin-top: 20px;
+    }
+    .special-gift-btns .primary-btn.bordered-btn {
+        margin-top: 20px;
+    }
+    .earn-area .earn-btn-wrap .primary-btn i {
+        margin: 0 auto;
+    }
+    .banner-area .banner-content .scale-effect2 .boxed-text {
+        font-size: 16px;
+    }
+    .earn-area .earn-inner .earn-box svg {
+        left: 14%;
+        top: 58px;
+    }
+    .banner-area .banner-content .scale-effect3 .boxed-text {
+        font-size: 22px;
+    }
+    .banner-area .banner-content .scale-effect3 {
+        margin-left: 15px;
+    }
+    .banner-area.event-banner .banner-content .countdown-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 50px;
+    }
+    .banner-area.event-banner .banner-content .countdown-container .countdown-el-wrap {
+        margin: 0 20px 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .program-boxes-area .program-mid-wraper .program-amount-box-wrap .invest-wrap .invest-inner {
+        display: block;
+        grid-template-columns: 2fr 1fr;
+    }
+    .program-boxes-area .program-mid-wraper .program-amount-box-wrap .invest-wrap .invest-inner .single-invest-item:first-child {
+        border-bottom: 1px solid #9E9B9B;
+        border-right: 0;
+    }
+    .coming-soon-cta .coming-soon-cta-inner .cta-btn-wrap .primary-btn.bordered-btn {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .coming-soon-cta .coming-soon-cta-inner {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .earn-area .earn-inner .earn-box svg {
+        left: 8%;
+        top: 58px;
+    }
+    .coming-soon-area .coming-soon-wrap h2 {
+        padding: 20px 15px;
+    }
+}

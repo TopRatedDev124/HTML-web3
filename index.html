@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+  <head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="assets/img/fav.png" />
+    <!-- Author Meta -->
+    <meta name="author" content="webfirefly" />
+    <!-- Meta Description -->
+    <meta name="description" content="" />
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="" />
+    <!-- meta character set -->
+    <meta charset="UTF-8" />
+    <!-- Site Title -->
+    <title>Whitelist Presale</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+
+  <body>
+    <!--loader-->
+    <div class="preloader">
+      <img src="assets/img/preloader.gif" alt="" />
+    </div>
+    
+    <!--end loader-->
+    <!--start navigation area-->
+    <header class="header-area" id="header_area">
+      <nav class="navbar navbar-expand-xl">
+        <div class="container custom-container">
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="main_nav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#progress">Documents</a></li>
+              <li class="nav-item"><a class="nav-link" href="#roadmap">Roadmap</a></li>
+              <li class="nav-item"><a class="nav-link" href="#community">Community</a></li>
+            </ul>
+            <ul class="header-btns ms-auto">
+              <li><a class="primary-btn" id="connect" onclick="login()">Connect Wallet</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--end navigation area-->
+
+    <!-- start offcanvas menu  -->
+    <div class="offcanvas-wraper">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="offcanvas-menu navbar-nav">
+              <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#progress">Tokenomics</a></li>
+              <li class="nav-item"><a class="nav-link" href="#roadmap">Roadmap</a></li>
+              <li class="nav-item"><a class="nav-link" href="#nft">NFT Collection</a></li>
+              <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+            </ul>
+            <ul class="header-btns">
+              <li><a class="primary-btn bordered-btn" href="#">Staking</a></li>
+              <li>
+                <a class="primary-btn" href="#">Play Now <i class="fas fa-angle-right"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end offcanvas menu  -->
+
+    <!-- banner area start -->
+    <section class="banner-area event-banner">
+      <div class="alert alert-warning alert-dismissible" id="alert" style="display: none;">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <p id="alert_text">
+          This alert box could indicate a warning that might need attention.
+        </p>
+      </div>
+      <div class="container custom-container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="banner-content" data-aos="fade-in">
+              <h1>Whitelist-Presale Event</h1>
+                <div class="wallet-box">
+                <h4>Your Wallet</h4>
+                <h3>$<span id="metamask_balance">0</span></h3>
+                <p>your $BUSD value</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner area end -->
+
+    <!-- start program boxes area  -->
+    <section class="program-boxes-area">
+      <div class="container custom-container">
+        <div class="row">
+          <div class="col-xl-3">
+            <div class="list-box" data-aos="fade-right">
+              <h4>Lorrem Ipsum</h4>
+              <ul>
+                <li><i class="fas fa-check"></i> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</li>
+                <li>
+                  <i class="fas fa-check"></i> The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it
+                  look like readable English.
+                </li>
+                <li><i class="fas fa-check"></i> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</li>
+                <li><i class="fas fa-check"></i> It is a long established fact that a reader will be distracted by the readable.</li>
+                <li><i class="fas fa-check"></i> It is a long established fact that a reader will be distracted by the readable.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="program-mid-wraper" id="info2" style="text-align:center">
+              <h5>Please connect your wallet to participate in the presale.</h5>
+              <a class="primary-btn" id = 'bottom_connect_button'onclick="login()" style="margin-top: 30px;">Please connect to wallet</a>
+            </div>
+            <div class="program-mid-wraper" id="info1" style="display: none;">
+              <div class="program-price-boxes" data-aos="fade-down" data-aos-delay="100">
+                <!-- single program price box  -->
+                <div class="single-program-price-box">
+                  <h6>Your Allowance</h6>
+                  <h4>$<span id='allowance'>0</span></h4>
+                  <p>max $BUSD allowance $1000</p>
+                </div>
+                <!-- single program price box  -->
+                <div class="single-program-price-box">
+                  <h6>GLOBAL You will receive</h6>
+                  <h4>$<span id="token_receive">0</span></h4>
+
+                </div>
+                <!-- single program price box  -->
+                <div class="single-program-price-box">
+                  <h6>GLOBAL price</h6>
+                  <h4>$<span id="globalPrice">0</span></h4>
+                  </div>
+                <div class="single-program-price-box">
+                  <h6>$BUSD in the pool</h6>
+                  <h4>$<span id="totalWhitelistPurchased">0</span></h4>
+                  <p>all $BUSD deposited so far</p>
+                </div>
+                <!-- single program price box  -->
+                <div class="single-program-price-box">
+                  <h6>Hard Cap</h6>
+                  <h4>$<span id="maxinvestCapPrivate">0</span></h4>
+                  <p>max $BUSD allowed</p>
+                </div>
+              </div>
+              
+              <div class="program-amount-box-wrap" data-aos="fade-up" data-aos-delay="150">
+                <div class="pg-amount-form">
+                  <h6>$BUSD amount</h6>
+                    <div class="form-group">
+                      <input type="number" id="max"/>
+                      <span action="#" class="count" onclick="max()">max</span>
+                    </div>
+                    <div class="form-group submit-btn">
+                      <button class="primary-btn" id="button_name" onclick="buy_token()">BUY $Token</button>
+                    </div>
+                </div>
+                <div class="pg-brands">
+                  <div class="single-brand">
+                    <img class="img-fluid" src="assets/img/brands/pg-brand1.png" alt="" />
+                  </div>
+                  <div class="single-brand">
+                    <img class="img-fluid" src="assets/img/brands/pg-brand2.png" alt="" />
+                  </div>
+                </div>
+                <div class="invest-wrap">
+                  <div class="invest-inner">
+                    <div class="single-invest-item">
+                      <h4 id="amountInvested">0</h4>
+                      <p>Your total investment in BUSD&#42</p>
+                      <a style="font-size:8px">&#42 Including both Whitelist and Public sale investment</a>
+                    </div>
+                    <div class="single-invest-item">
+                      <h4 id="claimed"></h4>
+                      <p>Claimed</p>
+                    </div>
+                  </div>
+                  <a class="primary-btn" onclick="redeem()">Redeem</a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-xl-3">
+            <div class="list-box" data-aos="fade-left" data-aos-delay="200">
+              <h4>Lorrem Ipsum</h4>
+              <ul>
+                <li><i class="fas fa-check"></i> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</li>
+                <li>
+                  <i class="fas fa-check"></i> The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it
+                  look like readable English.
+                </li>
+                <li><i class="fas fa-check"></i> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</li>
+                <li><i class="fas fa-check"></i> It is a long established fact that a reader will be distracted by the readable.</li>
+                <li><i class="fas fa-check"></i> It is a long established fact that a reader will be distracted by the readable.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end program boxes area  -->
+
+    <!-- start works area  -->
+    <section class="works-area2">
+      <div class="container custom-container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title text-center" data-aos="fade-in">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="works-lists">
+              <ul>
+                <li><i class="fas fa-check"></i> Connect to Metamask.</li>
+                <li><i class="fas fa-check"></i> Change network to BSC, if don’t have BSC yet, <a href="#">follow link how to add BSC to Metamask.</a></li>
+                <li><i class="fas fa-check"></i> Make sure you have fund available at least> $1000 worth of crypto or stable coins.</li>
+                <li><i class="fas fa-check"></i> Enter the contribution amount in BNB, BUSD, USDT, DAI or ETH</li>
+                <li><i class="fas fa-check"></i> Press Contribute.</li>
+              </ul>
+            </div>
+            <div class="token-address">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end works area  -->
+
+    <!-- start footer area  -->
+    <footer class="footer-area">
+       <div class="footer-copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <p class="copyright">Copyright © 2021 - Pomeranaut.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer area  -->
+
+    <!-- All js here -->
+    <script src="assets/js/jquery-3.6.0-min.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/jquery.parallax-scroll.js"></script>
+    <script src="assets/js/jquery.sticky.js "></script>
+    <script src="assets/js/bootstrap.min.js "></script>
+    <script src="assets/js/aos.js "></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/waypoints-min.js"></script>
+    <script src="assets/js/counterup-min.js"></script>
+    <!-- custom js -->
+    <script src="assets/js/main.js "></script>
+    <script src = " https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js " > </script>
+    <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+    <script src="assets/js/web3.js"></script>
+    
+  </body>
+</html>
